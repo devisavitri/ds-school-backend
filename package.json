@@ -1,0 +1,21 @@
+package.json
+{
+  "name": "ds-school-backend",
+  "version": "1.0.0",
+  "description": "DS School Backend API with Twilio OTP and Database Integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "twilio": "^4.19.0",
+    "dotenv": "^16.3.1",
+    "body-parser": "^1.20.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
